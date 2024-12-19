@@ -30,7 +30,7 @@ jobs:
 
       - name: Set RDP Password
         run: |
-          Set-LocalUser -Name "runneradmin" -Password (ConvertTo-SecureString -AsPlainText "magiskmodule.gitlab.io!" -Force)
+          Set-LocalUser -Name "andrebcb" -Password (ConvertTo-SecureString -AsPlainText "An5448_@666" -Force)
 
       - name: Start Playit and Set Up RDP Tunnel
         env:
